@@ -179,35 +179,35 @@ class HMM:
 
         # replace rare words by UNK in words
         words_copy = list(words)
-        for i in range(len(words)):
-            if words[i] not in self.word_freq:
-                words[i] = UNK
+        for i in range(len(words_copy)):
+            if words_copy[i] not in self.word_freq:
+                words_copy[i] = UNK
 
         # words: word list; tag_list: tag list
         tag_list = list(self.tag_freq.keys())
         # initialize the matrix (rows: tags, cols: word in words)
         # the matrix stores log probabilities
-        matrix = np.zeros((len(tag_list), len(words)))
+        matrix = np.zeros((len(tag_list), len(words_copy)))
 
         # fill in the first column of matrix = P_init(t_i) * P(w0, t_i)
         for i in range(len(tag_list)):
-            if self.init_prob[tag_list[i]] == 0.0 or self.emission_prob[(words[0], tag_list[i])]\
+            if self.init_prob[tag_list[i]] == 0.0 or self.emission_prob[(words_copy[0], tag_list[i])]\
                     == 0.0:
                 matrix[i][0] = -float("inf")
             else:
                 matrix[i][0] = log(self.init_prob[tag_list[i]]) + \
-                               log(self.emission_prob[(words[0], tag_list[i])])
+                               log(self.emission_prob[(words_copy[0], tag_list[i])])
             # print(matrix[i][0])
 
         # stores the index of best tags for each cell in matrix starting from second column
         # the first column of back_ptr_idx will be empty, to match the index of matrix
-        back_ptr_idx = -np.ones((len(tag_list), len(words)))
+        back_ptr_idx = -np.ones((len(tag_list), len(words_copy)))
 
         # calculate the rest
-        for i in range(1, len(words)):
+        for i in range(1, len(words_copy)):
             # matrix[i][j] = P(w_i|t_j) * max(matrix[i-1][k] * P(w_i|t_k))
             for j in range(len(tag_list)):
-                if self.emission_prob[(words[i], tag_list[j])] == 0.0:
+                if self.emission_prob[(words_copy[i], tag_list[j])] == 0.0:
                     matrix[j][i] = -float("inf")
                 else:
                     # stores the column of candidates for current matrix[i][j]
@@ -220,7 +220,7 @@ class HMM:
 
                     best_pre_idx = np.argmax(cur_col)
                     # print(best_pre_idx, ':', cur_col[best_pre_idx])
-                    matrix[j][i] = cur_col[best_pre_idx] + log(self.emission_prob[(words[i],
+                    matrix[j][i] = cur_col[best_pre_idx] + log(self.emission_prob[(words_copy[i],
                                                      tag_list[j])])
                     back_ptr_idx[j][i] = best_pre_idx
         # find the largest cumulative probability in last column
@@ -232,7 +232,7 @@ class HMM:
         # print(tag_list[int(best_idx)])
         best_tags.append(tag_list[int(best_idx)])
         # print(len(tag_list))
-        for i in range(len(words)-1, 0, -1):
+        for i in range(len(words_copy)-1, 0, -1):
             # update best idx to its previous best index
             best_idx = back_ptr_idx[int(best_idx), i]
             # print('best_idx = ', best_idx)
