@@ -79,21 +79,19 @@ class HMM:
         self.minFreq = unknownWordThreshold
         ### Initialize the rest of your data structures here ###
         # dictionary to store all words including rare ones
-        self.pre_word_freq = defaultdict(float)
+        self.pre_word_freq = defaultdict(int)
         # dictionary to store word frequencies wl rare ones replaced by UNK
         self.word_freq = defaultdict(float)
         # dictionary to store tag frequencies
         self.tag_freq = defaultdict(float)
-        # word-tag pair frequencies (key: (word, tag))
-        self.word_tag_freq = defaultdict(float)
-        # consecutive tag pair frequencies (key: (tag_i, tag_(i+1)))
-        self.tag_tag_freq = defaultdict(float)
         # transition probabilities: p(t_i -> t_j) for all t_i, t_j
         self.transition_prob = defaultdict(float)
         # emission probabilities: P(w_i|t_j) for all w_i, t_j
         self.emission_prob = defaultdict(float)
 
         self.num_tags = 0
+        # initial probability/frequency
+        self.init_prob = defaultdict(float)
 
     ################################
     #intput:                       #
@@ -103,45 +101,49 @@ class HMM:
     # Given labeled corpus in trainFile, build the HMM distributions from the observed counts
     def train(self, trainFile):
         data = self.readLabeledData(trainFile) # data is a nested list of TaggedWords
+
         # build pre_word_freq
         for sentence in data:
             for token in sentence:
                 self.pre_word_freq[token.word] += 1
 
         # replace rare word with UNK in data
-        for i in range(len(data)):
-            for j in range(len(data[i])):
-                if self.pre_word_freq[data[i][j].word] < self.minFreq:
-                    data[i][j].word = UNK
+        for sen in data:
+            for token in sen:
+                if self.pre_word_freq[token.word] < self.minFreq:
+                    token.word = UNK
 
         # build word_freq, tag_freq, word_tag_freq, and tag_tag_freq dictionaries
         for sentence in data:
-            for token in sentence:
-                self.word_freq[token.word] += 1
-                self.tag_freq[token.tag] += 1
-                self.word_tag_freq[(token.word, token.tag)] += 1
-            for i in range(0, len(sentence)-1):
-                self.tag_tag_freq[(sentence[i].tag, sentence[i+1].tag)] += 1
+            self.init_prob[sentence[0].tag] += 1.0
+            self.word_freq[sentence[0].word] += 1.0
+            self.tag_freq[sentence[0].tag] += 1.0
+            self.emission_prob[(sentence[0].word, sentence[0].tag)] += 1.0
+            for i in range(1, len(sentence)):
+                self.word_freq[sentence[i].word] += 1.0
+                self.tag_freq[sentence[i].tag] += 1.0
+                self.emission_prob[(sentence[i].word, sentence[i].tag)] += 1.0
+                self.transition_prob[(sentence[i-1].tag, sentence[i].tag)] += 1.0
+
         # find total number of tags
-        self.num_tags = len(self.tag_freq.keys())
-        # build emission_prob
-        for word in self.word_freq.keys():
-            for tag in self.tag_freq.keys():
-                if self.tag_freq[tag] > 0:
-                    self.emission_prob[(word, tag)] = self.word_tag_freq[(word, tag)] / \
-                                                      self.tag_freq[tag]
+        self.num_tags = len(self.tag_freq)
+
+        # normalize initial tag probability
+        for tag in self.init_prob.keys():
+            self.init_prob[tag] /= len(data)
+
+        # build & normalize emission_prob
+        for (word, tag) in self.emission_prob.keys():
+            self.emission_prob[(word, tag)] /= self.tag_freq[tag]
 
         # build transition_prob: P(tag1 -> tag2)
         # with add-1 smoothing
         for tag1 in self.tag_freq.keys():
-            for tag2 in self.tag_tag_freq.keys():
-                if tag1 != tag2:
-                    self.transition_prob[(tag1, tag2)] = (self.tag_tag_freq[(tag1, tag2)] + 1) /\
-                                                         (self.tag_freq[tag1] + self.num_tags)
+            for tag2 in self.tag_freq.keys():
+                self.transition_prob[(tag1, tag2)] = (self.transition_prob[(tag1, tag2)] + 1.0) \
+                                                     / (self.tag_freq[tag1] + self.num_tags)
 
-        # convert tag_freq to probabilities to use as initial probabilities
-        for tag in self.tag_freq.keys():
-            self.tag_freq[tag] /= len(data)
+
 
     ################################
     #intput:                       #
@@ -176,6 +178,7 @@ class HMM:
         # return ["NULL"]*len(words) # this returns a dummy list of "NULL", equal in length to words
 
         # replace rare words by UNK in words
+        words_copy = list(words)
         for i in range(len(words)):
             if words[i] not in self.word_freq:
                 words[i] = UNK
@@ -188,46 +191,55 @@ class HMM:
 
         # fill in the first column of matrix = P_init(t_i) * P(w0, t_i)
         for i in range(len(tag_list)):
-            if self.tag_freq[tag_list[i]] == 0.0 or self.emission_prob[(words[0], tag_list[i])]\
+            if self.init_prob[tag_list[i]] == 0.0 or self.emission_prob[(words[0], tag_list[i])]\
                     == 0.0:
                 matrix[i][0] = -float("inf")
             else:
-                matrix[i][0] = log(self.tag_freq[tag_list[i]]) + \
+                matrix[i][0] = log(self.init_prob[tag_list[i]]) + \
                                log(self.emission_prob[(words[0], tag_list[i])])
+            # print(matrix[i][0])
 
         # stores the index of best tags for each cell in matrix starting from second column
         # the first column of back_ptr_idx will be empty, to match the index of matrix
-        back_ptr_idx = np.empty((len(tag_list), len(words)))
+        back_ptr_idx = -np.ones((len(tag_list), len(words)))
 
         # calculate the rest
         for i in range(1, len(words)):
             # matrix[i][j] = P(w_i|t_j) * max(matrix[i-1][k] * P(w_i|t_k))
             for j in range(len(tag_list)):
-                # stores the column of candidates for current matrix[i][j]
-                cur_col = np.zeros(len(tag_list))
-                for k in range(len(tag_list)):
-                    cur_col[k] = matrix[i-1][k] + log(self.transition_prob[(tag_list[i-1],
-                                                                            tag_list[i])])
-                best_pre_idx = np.argmax(cur_col)
-                back_ptr_idx[i][j] = best_pre_idx
                 if self.emission_prob[(words[i], tag_list[j])] == 0.0:
-                    matrix[i][j] = -float("inf")
+                    matrix[j][i] = -float("inf")
                 else:
-                    matrix[i][j] = cur_col[best_pre_idx] * self.emission_prob[(words[i],
-                                                                               tag_list[j])]
+                    # stores the column of candidates for current matrix[i][j]
+                    cur_col = np.zeros(len(tag_list))
+                    # print(len(tag_list))
+                    for k in range(len(tag_list)):
+                        # print('k=', k)
+                        cur_col[k] = matrix[k][i-1] + log(self.transition_prob[(tag_list[k],
+                                                                                    tag_list[j])])
 
+                    best_pre_idx = np.argmax(cur_col)
+                    # print(best_pre_idx, ':', cur_col[best_pre_idx])
+                    matrix[j][i] = cur_col[best_pre_idx] + log(self.emission_prob[(words[i],
+                                                     tag_list[j])])
+                    back_ptr_idx[j][i] = best_pre_idx
         # find the largest cumulative probability in last column
         # and fill in the returned list
         best_tags = []
         # the starting point
         best_idx = np.argmax(matrix[:, -1])
-        best_tags.append(tag_list[back_ptr_idx[best_idx, -1]])
-        for i in range(len(words)-2, -1, -1):
+        # print(tag_list)
+        # print(tag_list[int(best_idx)])
+        best_tags.append(tag_list[int(best_idx)])
+        # print(len(tag_list))
+        for i in range(len(words)-1, 0, -1):
             # update best idx to its previous best index
-            best_idx = back_ptr_idx[best_idx, i]
-            best_tags.append(tag_list[best_idx])
-
-        return best_tags.reverse()
+            best_idx = back_ptr_idx[int(best_idx), i]
+            # print('best_idx = ', best_idx)
+            best_tags.append(tag_list[int(best_idx)])
+        best_tags.reverse()
+        # print(best_tags)
+        return best_tags
 
 
 
