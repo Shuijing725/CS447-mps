@@ -45,12 +45,12 @@ class Eval:
         # print(self.tags)
         # conf_matrix: stores the confusion matrix as np array
         self.conf_matrix = np.zeros((len(self.tags), len(self.tags)), dtype = int)
-        # fill the confusion matrix (row: assigned tags, col: correct tags)
+        # fill the confusion matrix (row: correct tags, col: assigned tags)
         for i in range(len(self.gold_data)):
             for j in range(len(self.gold_data[i])):
-                col_idx = self.tags.index(self.gold_data[i][j].tag)
+                row_idx = self.tags.index(self.gold_data[i][j].tag)
                 # print(self.test_data[i][j].tag)
-                row_idx = self.tags.index(self.test_data[i][j].tag)
+                col_idx = self.tags.index(self.test_data[i][j].tag)
                 self.conf_matrix[row_idx, col_idx] += 1
 
     # copied from hw2_hmm.py
@@ -144,10 +144,10 @@ if __name__ == "__main__":
         # You need to implement the evaluation class
         eval = Eval(gold, test)
         # Calculate accuracy (sentence and token level)
-        print("Token accuracy: ", eval.getTokenAccuracy())
-        print("Sentence accuracy: ", eval.getSentenceAccuracy())
-        # Calculate recall and precision
-        print("Recall on tag NNP: ", eval.getPrecision('NNP'))
-        print("Precision for tag NNP: ", eval.getRecall('NNP'))
+        # print("Token accuracy: ", eval.getTokenAccuracy())
+        # print("Sentence accuracy: ", eval.getSentenceAccuracy())
+        # # Calculate recall and precision
+        # print("Recall on tag NNP: ", eval.getPrecision('NNP'))
+        # print("Precision for tag NNP: ", eval.getRecall('NNP'))
         # Write a confusion matrix
         eval.writeConfusionMatrix("conf_matrix.txt")
