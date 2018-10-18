@@ -1,0 +1,580 @@
+########################################
+### Sentence 1: 10 parses
+### <There is no asbestos in our products now .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NN', ['asbestos'])])])])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])])])]), Tree('RB', ['now'])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['no'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['asbestos'])])])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])])])]), Tree('RB', ['now'])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NN', ['asbestos'])])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])])])])])]), Tree('RB', ['now'])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NP_', [Tree('NN', ['asbestos'])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])])])])])])]), Tree('RB', ['now'])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['no'])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['asbestos'])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])])])])])]), Tree('RB', ['now'])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 6.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NN', ['asbestos'])])])])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])]), Tree('RB', ['now'])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 7.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['no'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['asbestos'])])])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])]), Tree('RB', ['now'])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 8.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NN', ['asbestos'])])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])]), Tree('RB', ['now'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 9.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NP_', [Tree('NN', ['asbestos'])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])]), Tree('RB', ['now'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 10.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['is'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['no'])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['asbestos'])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_S', [Tree('PRPX', ['our']), Tree('NP_S', [Tree('NNS', ['products'])])])]), Tree('RB', ['now'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 2: 10 parses
+### <It has no bearing on our work force today .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NN', ['bearing'])])])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])]), Tree('NN', ['force'])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['no'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['bearing'])])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])]), Tree('NN', ['force'])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NN', ['bearing'])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])]), Tree('NN', ['force'])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NP_', [Tree('NN', ['bearing'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])]), Tree('NN', ['force'])])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['no'])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['bearing'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])]), Tree('NN', ['force'])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 6.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NN', ['bearing'])])])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['force'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 7.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['no'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['bearing'])])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['force'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 8.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NN', ['bearing'])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['force'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 9.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['no']), Tree('NP_', [Tree('NP_', [Tree('NN', ['bearing'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])])])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['force'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 10.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['It'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['no'])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['bearing'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('PRPX', ['our']), Tree('NP_', [Tree('NN', ['work'])])])])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['force'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 3: 1 parses
+### <Champagne and dessert followed .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('NP', [Tree('NP_', [Tree('NN', ['Champagne'])])]), Tree('CC', ['and']), Tree('NP', [Tree('NP_', [Tree('NN', ['dessert'])])])]), Tree('VP_', [Tree('VBD', ['followed'])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 4: 6 parses
+### <But Mr. Barnum called that a worst-case scenario .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['But']), Tree('S', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Barnum'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['called'])]), Tree('PP', [Tree('IN', ['that']), Tree('NP', [Tree('NP_', [Tree('DT', ['a']), Tree('NP_', [Tree('JJ', ['worst-case']), Tree('NP_', [Tree('NN', ['scenario'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['But']), Tree('S', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Barnum'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['called'])]), Tree('PP', [Tree('IN', ['that']), Tree('NP', [Tree('NP_S', [Tree('DT', ['a'])])])])]), Tree('NP', [Tree('NP_', [Tree('JJ', ['worst-case']), Tree('NP_', [Tree('NN', ['scenario'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['But']), Tree('S', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Barnum'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['called'])]), Tree('PP', [Tree('IN', ['that']), Tree('NP', [Tree('NP_S', [Tree('DT', ['a'])])])])]), Tree('JJ', ['worst-case'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['scenario'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('CC', ['But']), Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Barnum'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['called'])]), Tree('PP', [Tree('IN', ['that']), Tree('NP', [Tree('NP_', [Tree('DT', ['a']), Tree('NP_', [Tree('JJ', ['worst-case']), Tree('NP_', [Tree('NN', ['scenario'])])])])])])])]), Tree('FS', ['.'])])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('CC', ['But']), Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Barnum'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['called'])]), Tree('PP', [Tree('IN', ['that']), Tree('NP', [Tree('NP_S', [Tree('DT', ['a'])])])])]), Tree('NP', [Tree('NP_', [Tree('JJ', ['worst-case']), Tree('NP_', [Tree('NN', ['scenario'])])])])])]), Tree('FS', ['.'])])])])
+-------------------------
+Parse 6.0
+Tree('TOP', [Tree('S', [Tree('CC', ['But']), Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Barnum'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['called'])]), Tree('PP', [Tree('IN', ['that']), Tree('NP', [Tree('NP_S', [Tree('DT', ['a'])])])])]), Tree('JJ', ['worst-case'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['scenario'])])])])]), Tree('FS', ['.'])])])])
+-------------------------
+########################################
+### Sentence 5: 2 parses
+### <All came from Cray Research .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('DT', ['All'])]), Tree('VP_', [Tree('VP_', [Tree('VBD', ['came'])]), Tree('PP', [Tree('IN', ['from']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Cray']), Tree('NNP', ['Research'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('DT', ['All'])]), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VBD', ['came'])]), Tree('PP', [Tree('IN', ['from']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Cray'])])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Research'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 6: 4 parses
+### <No price for the new shares has been set .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NP_', [Tree('DT', ['No']), Tree('NP_', [Tree('NN', ['price'])])]), Tree('PP', [Tree('IN', ['for']), Tree('NP', [Tree('NP_S', [Tree('DT', ['the']), Tree('NP_S', [Tree('JJ', ['new']), Tree('NP_S', [Tree('NNS', ['shares'])])])])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('VBN', ['been'])]), Tree('VBN', ['set'])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['No']), Tree('NP_', [Tree('NP_', [Tree('NN', ['price'])]), Tree('PP', [Tree('IN', ['for']), Tree('NP', [Tree('NP_S', [Tree('DT', ['the']), Tree('NP_S', [Tree('JJ', ['new']), Tree('NP_S', [Tree('NNS', ['shares'])])])])])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('VBN', ['been'])]), Tree('VBN', ['set'])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NP_', [Tree('DT', ['No']), Tree('NP_', [Tree('NN', ['price'])])]), Tree('PP', [Tree('IN', ['for']), Tree('NP', [Tree('NP_S', [Tree('DT', ['the']), Tree('NP_S', [Tree('JJ', ['new']), Tree('NP_S', [Tree('NNS', ['shares'])])])])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('VBN', ['been']), Tree('VBN', ['set'])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['No']), Tree('NP_', [Tree('NP_', [Tree('NN', ['price'])]), Tree('PP', [Tree('IN', ['for']), Tree('NP', [Tree('NP_S', [Tree('DT', ['the']), Tree('NP_S', [Tree('JJ', ['new']), Tree('NP_S', [Tree('NNS', ['shares'])])])])])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('VBN', ['been']), Tree('VBN', ['set'])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 7: 1 parses
+### <The computers were crude by today 's standards .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('DT', ['The']), Tree('NP_S', [Tree('NNS', ['computers'])])]), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VBD', ['were'])]), Tree('JJ', ['crude'])]), Tree('PP', [Tree('IN', ['by']), Tree('NP', [Tree('NP_S', [Tree('NP', [Tree('NP_', [Tree('NN', ['today'])])]), Tree('POS', ["'s"]), Tree('NP_S', [Tree('NNS', ['standards'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 8: 4 parses
+### <There were many pioneer PC contributors .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['were'])]), Tree('NP', [Tree('NP_', [Tree('JJ', ['many']), Tree('NP_', [Tree('NN', ['pioneer'])])])])]), Tree('NP', [Tree('NP_S', [Tree('NN', ['PC']), Tree('NNS', ['contributors'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['were'])]), Tree('JJ', ['many'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['pioneer'])])])]), Tree('NP', [Tree('NP_S', [Tree('NN', ['PC']), Tree('NNS', ['contributors'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['were'])]), Tree('NP', [Tree('NP_', [Tree('JJ', ['many']), Tree('NP_', [Tree('NN', ['pioneer'])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['PC'])])])]), Tree('NP', [Tree('NP_S', [Tree('NNS', ['contributors'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('EX', ['There'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['were'])]), Tree('JJ', ['many'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['pioneer'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['PC'])])])]), Tree('NP', [Tree('NP_S', [Tree('NNS', ['contributors'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 9: 12 parses
+### <Esso said the Whiting field started production Tuesday .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NNP', ['Whiting'])])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['field'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['started'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Whiting'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['field'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['started'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NNP', ['Whiting']), Tree('NN', ['field'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['started'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NNP', ['Whiting']), Tree('NN', ['field'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['started'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NNP', ['Whiting'])])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['field'])]), Tree('VP_S', [Tree('VBD', ['started'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 6.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Whiting'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['field'])]), Tree('VP_S', [Tree('VBD', ['started'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 7.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NNP', ['Whiting']), Tree('NN', ['field'])])]), Tree('VP_S', [Tree('VBD', ['started'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 8.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NNP', ['Whiting']), Tree('NN', ['field'])]), Tree('VP_S', [Tree('VBD', ['started'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 9.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NNP', ['Whiting'])])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['field'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['started'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 10.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Whiting'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['field'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['started'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 11.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NNP', ['Whiting']), Tree('NN', ['field'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['started'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 12.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Esso'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['said'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NNP', ['Whiting']), Tree('NN', ['field'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['started'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['production'])])])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Tuesday'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 10: 6 parses
+### <The rest went to investors from France and Hong Kong .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['rest'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['went']), Tree('TO', ['to'])]), Tree('NP', [Tree('NP_S', [Tree('NP', [Tree('NP_S', [Tree('NP_S', [Tree('NNS', ['investors'])]), Tree('PP', [Tree('IN', ['from']), Tree('NP', [Tree('NP_', [Tree('NNP', ['France'])])])])])]), Tree('CC', ['and']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Hong']), Tree('NNP', ['Kong'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['rest'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['went']), Tree('TO', ['to'])]), Tree('NP', [Tree('NP_S', [Tree('NP_S', [Tree('NNS', ['investors'])]), Tree('PP', [Tree('IN', ['from']), Tree('NP', [Tree('NP_S', [Tree('NP', [Tree('NP_', [Tree('NNP', ['France'])])]), Tree('CC', ['and']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Hong']), Tree('NNP', ['Kong'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['rest'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['went']), Tree('TO', ['to'])]), Tree('NP', [Tree('NP_S', [Tree('NP', [Tree('NP_S', [Tree('NP_S', [Tree('NNS', ['investors'])]), Tree('PP', [Tree('IN', ['from']), Tree('NP', [Tree('NP_', [Tree('NNP', ['France'])])])])])]), Tree('CC', ['and']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Hong'])])])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Kong'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['rest'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['went']), Tree('TO', ['to'])]), Tree('NP', [Tree('NP_S', [Tree('NP_S', [Tree('NNS', ['investors'])]), Tree('PP', [Tree('IN', ['from']), Tree('NP', [Tree('NP_S', [Tree('NP', [Tree('NP_', [Tree('NNP', ['France'])])]), Tree('CC', ['and']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Hong'])])])])])])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Kong'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['rest'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['went']), Tree('TO', ['to'])]), Tree('NP', [Tree('NP_S', [Tree('NNS', ['investors'])])])]), Tree('PP', [Tree('IN', ['from']), Tree('NP', [Tree('NP_S', [Tree('NP', [Tree('NP_', [Tree('NNP', ['France'])])]), Tree('CC', ['and']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Hong'])])])])])])]), Tree('NP', [Tree('NP_', [Tree('NNP', ['Kong'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 6.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['rest'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['went']), Tree('TO', ['to'])]), Tree('NP', [Tree('NP_S', [Tree('NNS', ['investors'])])])]), Tree('PP', [Tree('IN', ['from']), Tree('NP', [Tree('NP_S', [Tree('NP', [Tree('NP_', [Tree('NNP', ['France'])])]), Tree('CC', ['and']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Hong']), Tree('NNP', ['Kong'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 11: 8 parses
+### <They fell into oblivion after the 1929 crash .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['They'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['into']), Tree('NP', [Tree('NP_', [Tree('NN', ['oblivion'])])])])]), Tree('PP', [Tree('IN', ['after']), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('CD', ['1929']), Tree('NP_', [Tree('NN', ['crash'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['They'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['into']), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['oblivion'])]), Tree('PP', [Tree('IN', ['after']), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('CD', ['1929']), Tree('NP_', [Tree('NN', ['crash'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['They'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['into']), Tree('NP', [Tree('NP_', [Tree('NN', ['oblivion'])])])])]), Tree('PP', [Tree('IN', ['after']), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('NP', [Tree('NP_', [Tree('CD', ['1929']), Tree('NP_', [Tree('NN', ['crash'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRP', ['They'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['into']), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['oblivion'])]), Tree('PP', [Tree('IN', ['after']), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])])])])]), Tree('NP', [Tree('NP_', [Tree('CD', ['1929']), Tree('NP_', [Tree('NN', ['crash'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('PRP', ['They'])]), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['into']), Tree('NP', [Tree('NP_', [Tree('NN', ['oblivion'])])])])]), Tree('PP', [Tree('IN', ['after']), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('CD', ['1929']), Tree('NP_', [Tree('NN', ['crash'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 6.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('PRP', ['They'])]), Tree('VP_', [Tree('VP_', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['into']), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['oblivion'])]), Tree('PP', [Tree('IN', ['after']), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('CD', ['1929']), Tree('NP_', [Tree('NN', ['crash'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 7.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('PRP', ['They'])]), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['into']), Tree('NP', [Tree('NP_', [Tree('NN', ['oblivion'])])])])]), Tree('PP', [Tree('IN', ['after']), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('NP', [Tree('NP_', [Tree('CD', ['1929']), Tree('NP_', [Tree('NN', ['crash'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 8.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('PRP', ['They'])]), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['into']), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['oblivion'])]), Tree('PP', [Tree('IN', ['after']), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])])])])]), Tree('NP', [Tree('NP_', [Tree('CD', ['1929']), Tree('NP_', [Tree('NN', ['crash'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 12: 1 parses
+### <Factory payrolls fell in September .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('NN', ['Factory']), Tree('NNS', ['payrolls'])]), Tree('VP_', [Tree('VP_', [Tree('VBD', ['fell'])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_', [Tree('NNP', ['September'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 13: 2 parses
+### <It 's imaginative and often funny .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP', [Tree('NP_S', [Tree('PRP', ['It'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('AP', [Tree('AP', [Tree('JJ', ['imaginative'])]), Tree('CC', ['and']), Tree('AP', [Tree('RB', ['often']), Tree('JJ', ['funny'])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP', [Tree('NP_', [Tree('PRP', ['It'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('AP', [Tree('AP', [Tree('JJ', ['imaginative'])]), Tree('CC', ['and']), Tree('AP', [Tree('RB', ['often']), Tree('JJ', ['funny'])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 14: 2 parses
+### <South Korea has different concerns .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['South']), Tree('NNP', ['Korea'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('NP', [Tree('NP_S', [Tree('JJ', ['different']), Tree('NP_S', [Tree('NNS', ['concerns'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['South']), Tree('NNP', ['Korea'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['has'])]), Tree('JJ', ['different'])]), Tree('NP', [Tree('NP_S', [Tree('NNS', ['concerns'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 15: 14 parses
+### <And the nose on Mr. Courter 's face grows .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['nose'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP_', [Tree('NN', ['nose'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])])])])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['nose'])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP_', [Tree('NN', ['nose'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('NP_', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['nose'])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])])])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 6.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('NP_', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['nose'])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['face'])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 7.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP_', [Tree('NN', ['nose'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['face'])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 8.0
+Tree('TOP', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['nose'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])]), Tree('FS', ['.'])])])])
+-------------------------
+Parse 9.0
+Tree('TOP', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP_', [Tree('NN', ['nose'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])])])])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])]), Tree('FS', ['.'])])])])
+-------------------------
+Parse 10.0
+Tree('TOP', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('S', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['nose'])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])]), Tree('FS', ['.'])])])])
+-------------------------
+Parse 11.0
+Tree('TOP', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('S', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP_', [Tree('NN', ['nose'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])]), Tree('FS', ['.'])])])])
+-------------------------
+Parse 12.0
+Tree('TOP', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('S', [Tree('NP_', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['nose'])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['face'])])])])])]), Tree('VP_S', [Tree('VBZ', ['grows'])])]), Tree('FS', ['.'])])])])
+-------------------------
+Parse 13.0
+Tree('TOP', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('S', [Tree('NP_', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['nose'])])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['face'])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])])]), Tree('FS', ['.'])])])])
+-------------------------
+Parse 14.0
+Tree('TOP', [Tree('S', [Tree('CC', ['And']), Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP_', [Tree('NN', ['nose'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_', [Tree('NNP', ['Mr.']), Tree('NNP', ['Courter'])])])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['face'])]), Tree('VP_S', [Tree('VBZ', ['grows'])])])])]), Tree('FS', ['.'])])])])
+-------------------------
+########################################
+### Sentence 16: 3 parses
+### <Her immediate predecessor suffered a nervous breakdown .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRPX', ['Her']), Tree('NP_', [Tree('JJ', ['immediate']), Tree('NP_', [Tree('NN', ['predecessor'])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['suffered'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['a']), Tree('NP_', [Tree('JJ', ['nervous']), Tree('NP_', [Tree('NN', ['breakdown'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRPX', ['Her']), Tree('NP_', [Tree('JJ', ['immediate']), Tree('NP_', [Tree('NN', ['predecessor'])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['suffered'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['a'])])])]), Tree('NP', [Tree('NP_', [Tree('JJ', ['nervous']), Tree('NP_', [Tree('NN', ['breakdown'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('PRPX', ['Her']), Tree('NP_', [Tree('JJ', ['immediate']), Tree('NP_', [Tree('NN', ['predecessor'])])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['suffered'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['a'])])])]), Tree('JJ', ['nervous'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['breakdown'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 17: 1 parses
+### <Pressures began to build .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('NNS', ['Pressures'])]), Tree('VP_', [Tree('VBD', ['began']), Tree('TO', ['to']), Tree('VB', ['build'])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 18: 2 parses
+### <But Learning Materials matched on 66.5 of 69 subskills .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('CC', ['But']), Tree('S', [Tree('NP_S', [Tree('NNP', ['Learning']), Tree('NNPS', ['Materials'])]), Tree('VP_', [Tree('VP_', [Tree('VBD', ['matched'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_S', [Tree('CD', ['66.5']), Tree('IN', ['of']), Tree('CD', ['69']), Tree('NP_S', [Tree('NNS', ['subskills'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('CC', ['But']), Tree('S', [Tree('S', [Tree('NP_S', [Tree('NNP', ['Learning']), Tree('NNPS', ['Materials'])]), Tree('VP_', [Tree('VP_', [Tree('VBD', ['matched'])]), Tree('PP', [Tree('IN', ['on']), Tree('NP', [Tree('NP_S', [Tree('CD', ['66.5']), Tree('IN', ['of']), Tree('CD', ['69']), Tree('NP_S', [Tree('NNS', ['subskills'])])])])])])]), Tree('FS', ['.'])])])])
+-------------------------
+########################################
+### Sentence 19: 5 parses
+### <Viacom denies it 's using pressure tactics .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Viacom'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['denies'])]), Tree('CLAUSE', [Tree('NP_', [Tree('PRP', ['it'])]), Tree('VP_S', [Tree('VBZ', ["'s"]), Tree('VBG', ['using'])])])]), Tree('NP', [Tree('NP_S', [Tree('NN', ['pressure']), Tree('NNS', ['tactics'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Viacom'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['denies'])]), Tree('CLAUSE', [Tree('NP_', [Tree('PRP', ['it'])]), Tree('VP_S', [Tree('VBZ', ["'s"]), Tree('VBG', ['using'])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['pressure'])])])]), Tree('NP', [Tree('NP_S', [Tree('NNS', ['tactics'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Viacom'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['denies'])]), Tree('CLAUSE', [Tree('NP_', [Tree('PRP', ['it'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"]), Tree('VBG', ['using'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['pressure'])])])])])]), Tree('NP', [Tree('NP_S', [Tree('NNS', ['tactics'])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Viacom'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['denies'])]), Tree('CLAUSE', [Tree('NP_', [Tree('PRP', ['it'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"]), Tree('VBG', ['using'])]), Tree('NP', [Tree('NP_S', [Tree('NN', ['pressure']), Tree('NNS', ['tactics'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['Viacom'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ['denies'])]), Tree('CLAUSE', [Tree('NP_', [Tree('PRP', ['it'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"]), Tree('VBG', ['using'])]), Tree('NP', [Tree('NP_', [Tree('NN', ['pressure'])])])]), Tree('NP', [Tree('NP_S', [Tree('NNS', ['tactics'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 20: 2 parses
+### <The business had been handled by VanSant Dugdale , Baltimore .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['business'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['had'])]), Tree('VBN', ['been'])]), Tree('VBN', ['handled'])]), Tree('PP', [Tree('IN', ['by']), Tree('NP', [Tree('NP_', [Tree('NNP', ['VanSant']), Tree('NNP', ['Dugdale']), Tree('COMMA', [',']), Tree('NNP', ['Baltimore'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['business'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['had'])]), Tree('VBN', ['been']), Tree('VBN', ['handled'])]), Tree('PP', [Tree('IN', ['by']), Tree('NP', [Tree('NP_', [Tree('NNP', ['VanSant']), Tree('NNP', ['Dugdale']), Tree('COMMA', [',']), Tree('NNP', ['Baltimore'])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 21: 1 parses
+### <Terms were n't disclosed .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('NNS', ['Terms'])]), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VBD', ['were'])]), Tree('RB', ["n't"])]), Tree('VBN', ['disclosed'])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 22: 59 parses
+### <France can boast the lion 's share of high-priced bottles .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 3.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 4.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 5.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 6.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 7.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 8.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 9.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 10.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 11.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 12.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 13.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 14.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 15.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 16.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 17.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 18.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 19.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 20.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 21.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 22.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 23.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 24.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 25.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 26.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 27.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 28.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 29.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 30.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 31.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 32.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 33.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 34.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 35.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 36.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 37.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 38.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 39.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 40.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 41.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 42.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 43.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 44.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 45.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VP_S', [Tree('VBZ', ["'s"])]), Tree('NP', [Tree('NP_', [Tree('NN', ['share'])])])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 46.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 47.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 48.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 49.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 50.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 51.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 52.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 53.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NN', ['share'])])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 54.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('NP', [Tree('NP_', [Tree('NP', [Tree('NP_', [Tree('NN', ['lion'])])]), Tree('POS', ["'s"]), Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 55.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 56.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VB', ['boast'])])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 57.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 58.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('CLAUSE', [Tree('NP_', [Tree('DT', ['the']), Tree('NP_', [Tree('NN', ['lion'])])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 59.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('NNP', ['France'])]), Tree('VP_S', [Tree('VP_S', [Tree('MD', ['can']), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VB', ['boast'])]), Tree('NP', [Tree('NP_S', [Tree('DT', ['the'])])])]), Tree('CLAUSE', [Tree('NP_', [Tree('NN', ['lion'])]), Tree('VP_S', [Tree('VBZ', ["'s"])])])])]), Tree('NP', [Tree('NP_', [Tree('NP_', [Tree('NN', ['share'])]), Tree('PP', [Tree('IN', ['of']), Tree('NP', [Tree('NP_S', [Tree('JJ', ['high-priced']), Tree('NP_S', [Tree('NNS', ['bottles'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 23: 2 parses
+### <The president understood but did n't agree despite overwhelming political pressure .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['president'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['understood'])]), Tree('CC', ['but']), Tree('VP_S', [Tree('VBD', ['did']), Tree('RB', ["n't"]), Tree('VB', ['agree'])])]), Tree('PP', [Tree('IN', ['despite']), Tree('NP', [Tree('NP_', [Tree('JJ', ['overwhelming']), Tree('NP_', [Tree('JJ', ['political']), Tree('NP_', [Tree('NN', ['pressure'])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+Parse 2.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_', [Tree('DT', ['The']), Tree('NP_', [Tree('NN', ['president'])])]), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['understood'])]), Tree('CC', ['but']), Tree('VP_S', [Tree('VP_S', [Tree('VBD', ['did']), Tree('RB', ["n't"]), Tree('VB', ['agree'])]), Tree('PP', [Tree('IN', ['despite']), Tree('NP', [Tree('NP_', [Tree('JJ', ['overwhelming']), Tree('NP_', [Tree('JJ', ['political']), Tree('NP_', [Tree('NN', ['pressure'])])])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 24: 1 parses
+### <Stock prices rose fractionally in moderate trading .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('NN', ['Stock']), Tree('NNS', ['prices'])]), Tree('VP_', [Tree('VP_', [Tree('VP_', [Tree('VBD', ['rose'])]), Tree('RB', ['fractionally'])]), Tree('PP', [Tree('IN', ['in']), Tree('NP', [Tree('NP_', [Tree('JJ', ['moderate']), Tree('NP_', [Tree('NN', ['trading'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
+########################################
+### Sentence 25: 1 parses
+### <They operate ships and banks .>
+########################################
+Parse 1.0
+Tree('TOP', [Tree('S', [Tree('S', [Tree('NP_S', [Tree('PRP', ['They'])]), Tree('VP_', [Tree('VP_', [Tree('VBP', ['operate'])]), Tree('NP', [Tree('NP_S', [Tree('NP', [Tree('NP_S', [Tree('NNS', ['ships'])])]), Tree('CC', ['and']), Tree('NP', [Tree('NP_S', [Tree('NNS', ['banks'])])])])])])]), Tree('FS', ['.'])])])
+-------------------------
